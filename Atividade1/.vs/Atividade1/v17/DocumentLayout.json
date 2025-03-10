@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\371153\\Downloads\\Prog1\\Atividade1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|c:\\users\\371153\\downloads\\prog1\\atividade1\\atividade1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|solutionrelative:atividade1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|c:\\users\\371153\\downloads\\prog1\\atividade1\\atividade1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|solutionrelative:atividade1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|c:\\users\\371153\\downloads\\prog1\\atividade1\\atividade1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|solutionrelative:atividade1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|c:\\users\\371153\\downloads\\prog1\\atividade1\\atividade1\\models\\variaveis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|solutionrelative:atividade1\\models\\variaveis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +22,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\371153\\Downloads\\Prog1\\Atividade1\\Atividade1\\Program.cs",
-              "RelativeDocumentMoniker": "Atividade1\\Program.cs",
-              "ToolTip": "C:\\Users\\371153\\Downloads\\Prog1\\Atividade1\\Atividade1\\Program.cs",
-              "RelativeToolTip": "Atividade1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T22:57:24.545Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\371153\\Downloads\\Prog1\\Atividade1\\Atividade1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Atividade1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\371153\\Downloads\\Prog1\\Atividade1\\Atividade1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Atividade1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-25T00:24:56.447Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\371153\\Downloads\\Prog1\\Atividade1\\Atividade1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Atividade1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\371153\\Downloads\\Prog1\\Atividade1\\Atividade1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Atividade1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T00:20:58.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Variaveis.cs",
+              "DocumentMoniker": "C:\\Users\\371153\\Downloads\\Prog1\\Atividade1\\Atividade1\\Models\\Variaveis.cs",
+              "RelativeDocumentMoniker": "Atividade1\\Models\\Variaveis.cs",
+              "ToolTip": "C:\\Users\\371153\\Downloads\\Prog1\\Atividade1\\Atividade1\\Models\\Variaveis.cs",
+              "RelativeToolTip": "Atividade1\\Models\\Variaveis.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T23:22:22.982Z"
             }
           ]
         }
