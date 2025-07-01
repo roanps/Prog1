@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\371153\\Downloads\\Prog1-master\\Atividade1\\",
+  "WorkspaceRootPath": "C:\\Users\\371153\\Downloads\\Programacao\\Prog1\\Atividades\\Atv1variavesconstantes\\Atividade1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|c:\\users\\371153\\downloads\\prog1-master\\atividade1\\atividade1\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|c:\\users\\371153\\downloads\\programacao\\prog1\\atividades\\atv1variavesconstantes\\atividade1\\atividade1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|solutionrelative:atividade1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|c:\\users\\371153\\downloads\\programacao\\prog1\\atividades\\atv1variavesconstantes\\atividade1\\atividade1\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|solutionrelative:atividade1\\controllers\\testecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|c:\\users\\371153\\downloads\\prog1-master\\atividade1\\atividade1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|c:\\users\\371153\\downloads\\programacao\\prog1\\atividades\\atv1variavesconstantes\\atividade1\\atividade1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|solutionrelative:atividade1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|c:\\users\\371153\\downloads\\prog1-master\\atividade1\\atividade1\\views\\teste\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|c:\\users\\371153\\downloads\\programacao\\prog1\\atividades\\atv1variavesconstantes\\atividade1\\atividade1\\views\\teste\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|solutionrelative:atividade1\\views\\teste\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|c:\\users\\371153\\downloads\\prog1-master\\atividade1\\atividade1\\views\\teste\\teste.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|c:\\users\\371153\\downloads\\programacao\\prog1\\atividades\\atv1variavesconstantes\\atividade1\\atividade1\\views\\teste\\teste.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C6093261-29F7-419D-892D-9A19743218F1}|Atividade1\\Atividade1.csproj|solutionrelative:atividade1\\views\\teste\\teste.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -26,59 +30,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\371153\\Downloads\\Programacao\\Prog1\\Atividades\\Atv1variavesconstantes\\Atividade1\\Atividade1\\Program.cs",
+              "RelativeDocumentMoniker": "Atividade1\\Program.cs",
+              "ToolTip": "C:\\Users\\371153\\Downloads\\Programacao\\Prog1\\Atividades\\Atv1variavesconstantes\\Atividade1\\Atividade1\\Program.cs",
+              "RelativeToolTip": "Atividade1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T23:30:02.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Teste.cshtml",
-              "DocumentMoniker": "C:\\Users\\371153\\Downloads\\Prog1-master\\Atividade1\\Atividade1\\Views\\Teste\\Teste.cshtml",
+              "DocumentMoniker": "C:\\Users\\371153\\Downloads\\Programacao\\Prog1\\Atividades\\Atv1variavesconstantes\\Atividade1\\Atividade1\\Views\\Teste\\Teste.cshtml",
               "RelativeDocumentMoniker": "Atividade1\\Views\\Teste\\Teste.cshtml",
-              "ToolTip": "C:\\Users\\371153\\Downloads\\Prog1-master\\Atividade1\\Atividade1\\Views\\Teste\\Teste.cshtml",
+              "ToolTip": "C:\\Users\\371153\\Downloads\\Programacao\\Prog1\\Atividades\\Atv1variavesconstantes\\Atividade1\\Atividade1\\Views\\Teste\\Teste.cshtml",
               "RelativeToolTip": "Atividade1\\Views\\Teste\\Teste.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T00:14:37.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T00:14:37.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\371153\\Downloads\\Programacao\\Prog1\\Atividades\\Atv1variavesconstantes\\Atividade1\\Atividade1\\Views\\Teste\\Index.cshtml",
+              "RelativeDocumentMoniker": "Atividade1\\Views\\Teste\\Index.cshtml",
+              "ToolTip": "C:\\Users\\371153\\Downloads\\Programacao\\Prog1\\Atividades\\Atv1variavesconstantes\\Atividade1\\Atividade1\\Views\\Teste\\Index.cshtml",
+              "RelativeToolTip": "Atividade1\\Views\\Teste\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-11T00:08:28.421Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\371153\\Downloads\\Prog1-master\\Atividade1\\Atividade1\\Views\\Teste\\Index.cshtml",
-              "RelativeDocumentMoniker": "Atividade1\\Views\\Teste\\Index.cshtml",
-              "ToolTip": "C:\\Users\\371153\\Downloads\\Prog1-master\\Atividade1\\Atividade1\\Views\\Teste\\Index.cshtml",
-              "RelativeToolTip": "Atividade1\\Views\\Teste\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T00:08:28.421Z",
-              "EditorCaption": ""
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\371153\\Downloads\\Programacao\\Prog1\\Atividades\\Atv1variavesconstantes\\Atividade1\\Atividade1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Atividade1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\371153\\Downloads\\Programacao\\Prog1\\Atividades\\Atv1variavesconstantes\\Atividade1\\Atividade1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Atividade1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T00:20:58.917Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\371153\\Downloads\\Prog1-master\\Atividade1\\Atividade1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Atividade1\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\371153\\Downloads\\Prog1-master\\Atividade1\\Atividade1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Atividade1\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T00:20:58.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "TesteController.cs",
-              "DocumentMoniker": "C:\\Users\\371153\\Downloads\\Prog1-master\\Atividade1\\Atividade1\\Controllers\\TesteController.cs",
+              "DocumentMoniker": "C:\\Users\\371153\\Downloads\\Programacao\\Prog1\\Atividades\\Atv1variavesconstantes\\Atividade1\\Atividade1\\Controllers\\TesteController.cs",
               "RelativeDocumentMoniker": "Atividade1\\Controllers\\TesteController.cs",
-              "ToolTip": "C:\\Users\\371153\\Downloads\\Prog1-master\\Atividade1\\Atividade1\\Controllers\\TesteController.cs",
+              "ToolTip": "C:\\Users\\371153\\Downloads\\Programacao\\Prog1\\Atividades\\Atv1variavesconstantes\\Atividade1\\Atividade1\\Controllers\\TesteController.cs",
               "RelativeToolTip": "Atividade1\\Controllers\\TesteController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCUAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T00:01:42.526Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T00:01:42.526Z"
             }
           ]
         }

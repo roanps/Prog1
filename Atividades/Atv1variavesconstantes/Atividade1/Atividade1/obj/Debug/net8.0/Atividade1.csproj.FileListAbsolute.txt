@@ -67,3 +67,14 @@ C:\Users\371153\Downloads\Prog1-master\Atividade1\Atividade1\obj\Debug\net8.0\re
 C:\Users\371153\Downloads\Prog1-master\Atividade1\Atividade1\obj\Debug\net8.0\Atividade1.pdb
 C:\Users\371153\Downloads\Prog1-master\Atividade1\Atividade1\obj\Debug\net8.0\Atividade1.genruntimeconfig.cache
 C:\Users\371153\Downloads\Prog1-master\Atividade1\Atividade1\obj\Debug\net8.0\ref\Atividade1.dll
+C:\Users\371153\Downloads\Programacao\Prog1\Atividades\Atv1variavesconstantes\Atividade1\Atividade1\obj\Debug\net8.0\Atividade1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\371153\Downloads\Programacao\Prog1\Atividades\Atv1variavesconstantes\Atividade1\Atividade1\obj\Debug\net8.0\Atividade1.AssemblyInfoInputs.cache
+C:\Users\371153\Downloads\Programacao\Prog1\Atividades\Atv1variavesconstantes\Atividade1\Atividade1\obj\Debug\net8.0\Atividade1.AssemblyInfo.cs
+C:\Users\371153\Downloads\Programacao\Prog1\Atividades\Atv1variavesconstantes\Atividade1\Atividade1\obj\Debug\net8.0\Atividade1.csproj.CoreCompileInputs.cache
+C:\Users\371153\Downloads\Programacao\Prog1\Atividades\Atv1variavesconstantes\Atividade1\Atividade1\obj\Debug\net8.0\Atividade1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\371153\Downloads\Programacao\Prog1\Atividades\Atv1variavesconstantes\Atividade1\Atividade1\obj\Debug\net8.0\Atividade1.RazorAssemblyInfo.cache
+C:\Users\371153\Downloads\Programacao\Prog1\Atividades\Atv1variavesconstantes\Atividade1\Atividade1\obj\Debug\net8.0\Atividade1.RazorAssemblyInfo.cs
+C:\Users\371153\Downloads\Programacao\Prog1\Atividades\Atv1variavesconstantes\Atividade1\Atividade1\obj\Debug\net8.0\Atividade1.sourcelink.json
+C:\Users\371153\Downloads\Programacao\Prog1\Atividades\Atv1variavesconstantes\Atividade1\Atividade1\obj\Debug\net8.0\Atividade1.dll
+C:\Users\371153\Downloads\Programacao\Prog1\Atividades\Atv1variavesconstantes\Atividade1\Atividade1\obj\Debug\net8.0\refint\Atividade1.dll
+C:\Users\371153\Downloads\Programacao\Prog1\Atividades\Atv1variavesconstantes\Atividade1\Atividade1\obj\Debug\net8.0\Atividade1.pdb

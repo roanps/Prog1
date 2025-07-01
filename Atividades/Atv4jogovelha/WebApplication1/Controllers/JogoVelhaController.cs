@@ -41,7 +41,24 @@ namespace WebApplication1.Controllers
                 ganhador = "X";
             else if (matrixJV[0, 2] == "X" || matrixJV[1, 1] == "X" || matrixJV[2, 0] == "X")
                 ganhador = "X";
-             
+            else if (matrixJV[0, 0] == "O" || matrixJV[0, 1] == "O" || matrixJV[0, 2] == "O")
+                ganhador = "O";
+            else if (matrixJV[1, 0] == "O" || matrixJV[1, 1] == "O" || matrixJV[1, 2] == "O")
+                ganhador = "O";
+            else if (matrixJV[2, 0] == "O" || matrixJV[2, 1] == "O" || matrixJV[2, 2] == "O")
+                ganhador = "O";
+            else if (matrixJV[0, 0] == "O" || matrixJV[1, 0] == "O" || matrixJV[2, 0] == "O")
+                ganhador = "O";
+            else if (matrixJV[0, 1] == "O" || matrixJV[1, 1] == "O" || matrixJV[2, 1] == "O")
+                ganhador = "O";
+            else if (matrixJV[0, 2] == "O" || matrixJV[1, 2] == "O" || matrixJV[2, 2] == "O")
+                ganhador = "O";
+            else if (matrixJV[0, 0] == "O" || matrixJV[1, 1] == "O" || matrixJV[2, 2] == "O")
+                ganhador = "O";
+            else if (matrixJV[0, 2] == "O" || matrixJV[1, 1] == "O" || matrixJV[2, 0] == "O")
+                ganhador = "O";
+            else
+                ganhador = "Deu velha";
             return View();
         }
     }
