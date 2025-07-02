@@ -1,65 +1,41 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
 {
     public class JogoVelhaController : Controller
     {
         [HttpPost]
-        public IActionResult Index(
-             string A00, string A01, string A02,
-             string A10, string A11, string A12,
-             string A20, string A21, string A22
-         )
+        public IActionResult Index()
         {
-            string[,] matrixJV = new string[3, 3];
-            matrixJV[0, 0] = A00;
-            matrixJV[0, 1] = A01;
-            matrixJV[0, 2] = A02;
+            var model = new JogoDaVelhaModel();
 
-            matrixJV[1, 0] = A10;
-            matrixJV[1, 1] = A11;
-            matrixJV[1, 2] = A12;
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    var key = $"A{i}{j}";
+                    var valor = Request.Form[key];
 
-            matrixJV[2, 0] = A20;
-            matrixJV[2, 1] = A21;
-            matrixJV[2, 2] = A22;
+                    // Valida valor: só aceita 'X' ou 'O', maiúsculo
+                    if (!string.IsNullOrEmpty(valor))
+                    {
+                        var c = char.ToUpper(valor[0]);
+                        if (c == 'X' || c == 'O')
+                            model.Tabuleiro[i, j] = c;
+                        else
+                            model.Tabuleiro[i, j] = ' ';
+                    }
+                    else
+                    {
+                        model.Tabuleiro[i, j] = ' ';
+                    }
+                }
+            }
 
-            string ganhador = string.Empty;
-            if (matrixJV[0, 0] == "X" || matrixJV[0, 1] == "X" || matrixJV[0, 2] == "X")
-                ganhador = "X";
-            else if (matrixJV[1, 0] == "X" || matrixJV[1, 1] == "X" || matrixJV[1, 2] == "X")
-                ganhador = "X";
-            else if (matrixJV[2, 0] == "X" || matrixJV[2, 1] == "X" || matrixJV[2, 2] == "X")
-                ganhador = "X";
-            else if (matrixJV[0, 0] == "X" || matrixJV[1, 0] == "X" || matrixJV[2, 0] == "X")
-                ganhador = "X";
-            else if (matrixJV[0, 1] == "X" || matrixJV[1, 1] == "X" || matrixJV[2, 1] == "X")
-                ganhador = "X";
-            else if (matrixJV[0, 2] == "X" || matrixJV[1, 2] == "X" || matrixJV[2, 2] == "X")
-                ganhador = "X";
-            else if (matrixJV[0, 0] == "X" || matrixJV[1, 1] == "X" || matrixJV[2, 2] == "X")
-                ganhador = "X";
-            else if (matrixJV[0, 2] == "X" || matrixJV[1, 1] == "X" || matrixJV[2, 0] == "X")
-                ganhador = "X";
-            else if (matrixJV[0, 0] == "O" || matrixJV[0, 1] == "O" || matrixJV[0, 2] == "O")
-                ganhador = "O";
-            else if (matrixJV[1, 0] == "O" || matrixJV[1, 1] == "O" || matrixJV[1, 2] == "O")
-                ganhador = "O";
-            else if (matrixJV[2, 0] == "O" || matrixJV[2, 1] == "O" || matrixJV[2, 2] == "O")
-                ganhador = "O";
-            else if (matrixJV[0, 0] == "O" || matrixJV[1, 0] == "O" || matrixJV[2, 0] == "O")
-                ganhador = "O";
-            else if (matrixJV[0, 1] == "O" || matrixJV[1, 1] == "O" || matrixJV[2, 1] == "O")
-                ganhador = "O";
-            else if (matrixJV[0, 2] == "O" || matrixJV[1, 2] == "O" || matrixJV[2, 2] == "O")
-                ganhador = "O";
-            else if (matrixJV[0, 0] == "O" || matrixJV[1, 1] == "O" || matrixJV[2, 2] == "O")
-                ganhador = "O";
-            else if (matrixJV[0, 2] == "O" || matrixJV[1, 1] == "O" || matrixJV[2, 0] == "O")
-                ganhador = "O";
-            else
-                ganhador = "Deu velha";
-            return View();
+            model.VerificarVitoria();
+
+            return View(model);
         }
     }
 }
