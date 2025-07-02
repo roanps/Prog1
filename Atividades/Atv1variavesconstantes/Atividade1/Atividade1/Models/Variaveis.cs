@@ -6,25 +6,39 @@
         // var teste = 10;
         // Anotação de Tipos
 
-        public int minInt = -2147483648;
-        //Uma variável pode ser declarada e não inicializada
-        public int maxInt;
 
-        public byte minByte = 0;
-        public byte maxByte = 255;
-        public sbyte minSbyte = -128;
-        public sbyte maxSbyte = 127;
-        public short minShort = -32768;
-        public short maxShort = 32767;
-        public ushort minUshort = 0;
-        public ushort maxUshort = 65535;
-        public uint minUint = 0;
-        public uint maxUint = 4292967295;
-        public long minLong = -9223372036854775808;
-        public long maxLong = 9223372036854775807;
-        public ulong minUlong = -0;
-        public ulong maxUlong = 18446744073709551615;
+        public sbyte SByteMin => sbyte.MinValue;
+        public sbyte SByteMax => sbyte.MaxValue;
 
+        public byte ByteMin => byte.MinValue;
+        public byte ByteMax => byte.MaxValue;
+
+        public short ShortMin => short.MinValue;
+        public short ShortMax => short.MaxValue;
+
+        public ushort UShortMin => ushort.MinValue;
+        public ushort UShortMax => ushort.MaxValue;
+
+        public int IntMin => int.MinValue;
+        public int IntMax => int.MaxValue;
+
+        public uint UIntMin => uint.MinValue;
+        public uint UIntMax => uint.MaxValue;
+
+        public long LongMin => long.MinValue;
+        public long LongMax => long.MaxValue;
+
+        public ulong ULongMin => ulong.MinValue;
+        public ulong ULongMax => ulong.MaxValue;
+
+        public float FloatMin => float.MinValue;
+        public float FloatMax => float.MaxValue;
+
+        public double DoubleMin => double.MinValue;
+        public double DoubleMax => double.MaxValue;
+
+        public decimal DecimalMin => decimal.MinValue;
+        public decimal DecimalMax => decimal.MaxValue;
         // COnSTANTES
         // Para declarar uma constante utilizamos a palavra-chave CONST
         // No entanto a CONST deve ser inicializada quando declarada
@@ -35,16 +49,5 @@
         // palavra reservada new
         // Por regra, o construtor sempre tem o mesmo nome da classe
 
-
-        public Variaveis()
-        {
-            maxInt = 2147483647;
-
-            // Tipo implicito, a palavra chave var se encarrega de definir o
-            // tipo da variável na instrução de atribuição
-            var signalStrength = 22;
-            var companyName = "ACME";
-
-        }
     }
 }

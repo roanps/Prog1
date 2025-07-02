@@ -24,20 +24,6 @@ namespace Atividade1.Controllers
             return View("Index", new Result()   );
         }
 
-        [HttpPost]
-        public IActionResult Index(string texto)
-        {
-            Result resultado = new Result();
-            string novo;
-            // resultado.Texto = texto.ToUpper();
-            for (int i = 0; i < texto.Length; i++)
-            { 
-                novo.Append(texto[i] + 3.ToString()); 
-
-            }
-            resultado.Texto = novo;
-
-                return View("Index", resultado);
-        }
+        
     }
 }

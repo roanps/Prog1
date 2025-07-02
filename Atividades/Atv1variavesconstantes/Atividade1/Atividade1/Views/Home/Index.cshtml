@@ -6,32 +6,27 @@
 
 <div class="text-center">
     <h1 class="display-4">Bem-Vindos</h1>
-    <p>
-        Os valores de <b>Int</b> variam de <i>@Model.minInt</i> a <i>@Model.maxInt</i>
-    </p>
 
-    <p>
-        Os valores de <b>Byte</b> variam de <i>@Model.minByte</i> a <i>@Model.maxByte</i>
-    </p>
-    <p>
-        Os valores de <b>Sbyte</b> variam de <i>@Model.minSbyte</i> a <i>@Model.maxSbyte</i>
-    </p>
-    <p>
-        Os valores de <b>Short</b> variam de <i>@Model.minShort</i> a <i>@Model.maxShort</i>
-    </p>
-    <p>
-        Os valores de <b>Ushort</b> variam de <i>@Model.minUshort</i> a <i>@Model.maxUshort</i>
-    </p>
-    <p>
-        Os valores de <b>Uint</b> variam de <i>@Model.minUint</i> a <i>@Model.maxUint</i>
-    </p>
-    <p>
-        Os valores de <b>Long</b> variam de <i>@Model.minLong</i> a <i>@Model.maxLong</i>
-    </p>
-    <p>
-        Os valores de <b>Ulong</b> variam de <i>@Model.minUlong</i> a <i>@Model.maxUlong</i>
-    </p>
-   
-
-
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tipo</th>
+                <th>Mínimo</th>
+                <th>Máximo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td>sbyte</td><td>@Model.SByteMin</td><td>@Model.SByteMax</td></tr>
+            <tr><td>byte</td><td>@Model.ByteMin</td><td>@Model.ByteMax</td></tr>
+            <tr><td>short</td><td>@Model.ShortMin</td><td>@Model.ShortMax</td></tr>
+            <tr><td>ushort</td><td>@Model.UShortMin</td><td>@Model.UShortMax</td></tr>
+            <tr><td>int</td><td>@Model.IntMin</td><td>@Model.IntMax</td></tr>
+            <tr><td>uint</td><td>@Model.UIntMin</td><td>@Model.UIntMax</td></tr>
+            <tr><td>long</td><td>@Model.LongMin</td><td>@Model.LongMax</td></tr>
+            <tr><td>ulong</td><td>@Model.ULongMin</td><td>@Model.ULongMax</td></tr>
+            <tr><td>float</td><td>@Model.FloatMin</td><td>@Model.FloatMax</td></tr>
+            <tr><td>double</td><td>@Model.DoubleMin</td><td>@Model.DoubleMax</td></tr>
+            <tr><td>decimal</td><td>@Model.DecimalMin</td><td>@Model.DecimalMax</td></tr>
+        </tbody>
+        </table>
 </div>
